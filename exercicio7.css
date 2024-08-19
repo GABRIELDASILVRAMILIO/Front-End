@@ -1,0 +1,31 @@
+/* Estilização geral da tabela */
+.data-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+    margin: 20px 0;
+}
+
+/* Estilização das células do cabeçalho */
+.data-table th {
+    background-color: #4CAF50; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Borda das células do cabeçalho */
+}
+
+/* Estilização das células do corpo da tabela */
+.data-table td {
+    padding: 12px;
+    border: 1px solid #ddd; /* Borda das células do corpo */
+}
+
+/* Cor de fundo alternada para linhas */
+.data-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo para linhas pares */
+}
+
+/* Cor de fundo ao passar o mouse */
+.data-table tr:hover {
+    background-color: #ddd; /* Cor de fundo ao passar o mouse */
+}

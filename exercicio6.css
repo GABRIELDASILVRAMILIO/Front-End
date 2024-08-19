@@ -1,0 +1,23 @@
+/* Reseta margem e padding e remove a lista padrão de imagens */
+body, .gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Estiliza o contêiner da galeria */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Estiliza as imagens para serem responsivas */
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}

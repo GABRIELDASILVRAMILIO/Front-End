@@ -1,0 +1,63 @@
+/* Estilização geral do corpo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cor de fundo da página */
+    margin: 0;
+}
+
+/* Estilização do contêiner do formulário */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo do contêiner do formulário */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização do formulário */
+.login-form {
+    max-width: 300px;
+    width: 100%;
+}
+
+/* Estilização dos rótulos */
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Estilização dos campos de entrada */
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para campos inválidos */
+.login-form input:invalid {
+    border-color: red;
+    background-color: #ffe6e6; /* Cor de fundo para campos inválidos */
+}
+
+/* Estilização do botão */
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse sobre o botão */
+}
